@@ -1,0 +1,46 @@
+#chart {
+  margin-left: -40px;
+  height: 506px;
+}
+
+text {
+  font: 15px sans-serif;
+}
+
+.dot {
+  stroke: #000;
+}
+
+.d3-tip {
+  line-height: 2;
+  line-width:3;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  border-radius: 2px;
+}
+/* Creates a small triangle extender for the tooltip */
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #d3d3d3;
+  shape-rendering: crispEdges;
+}
+
+.label {
+  fill: #777;
+}
+
+.year.label {
+  font: 86px "Helvetica Neue";
+  fill: #aaa;
+}
+
+.year.label.active {
+  fill: #000;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
+}
